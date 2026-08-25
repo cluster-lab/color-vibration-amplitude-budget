@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+
+# generated figures; make_figures.py rebuilds them
+out/*.pdf
+out/*.png
