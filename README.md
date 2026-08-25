@@ -8,6 +8,7 @@ manuscript.
 pip install -r requirements.txt
 python make_figures.py            # ten PDFs and PNGs into out/
 python make_figures.py --loci     # re-solve the stimulus construction first
+jupyter lab tutorial.ipynb        # the same thing, explained step by step
 ```
 
 ## What color vibration is, and what this repository computes
@@ -54,6 +55,19 @@ images/                      screenshots taken during the experiment
 out/                         generated figures land here
 make_figures.py              runs the lot
 ```
+
+## Start here: `tutorial.ipynb`
+
+[`tutorial.ipynb`](tutorial.ipynb) walks through the whole thing and is the
+easiest way in. It is committed with its output, so it reads on GitHub without
+running anything.
+
+- what the condition table holds, and how a pair of display colors becomes the
+  three cone-opponent amplitudes
+- the stimulus construction solved step by step for one ellipse and one radius,
+  then checked against the value the experiment actually presented
+- the visibility index, and where the thresholds and their ratios come from
+- each of the ten figures, generated and shown, with what it says
 
 ## Which script makes which figure
 

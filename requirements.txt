@@ -4,3 +4,6 @@ scipy==1.15.2
 matplotlib==3.10.1
 colour-science==0.4.7
 pillow==12.1.0
+
+# only needed to run tutorial.ipynb
+jupyterlab
